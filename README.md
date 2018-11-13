@@ -120,13 +120,6 @@ for(i in 1:length(images))
 
 
 
-
-
-
-
-
-
-
 # ##############################################################################################
 #
 #       Correlation Comparison
@@ -161,9 +154,6 @@ images_df <- data.frame(numbers = 1:length(images_list), list = images_list)
 images_df$list <- as.character(images_df$list)
 str(images_df)
 images_df[,2]
-
-
-
 
 
 
@@ -213,9 +203,6 @@ saveRDS(table_comb, file_name_table_comb_rds)
 
 file_name_table_comb_csv <- paste0(folder_data, "table_comb_640.csv")
 write.csv(table.comb, file_name_table_comb_csv, row.names = FALSE)
-
-
-
 
 
 
@@ -370,15 +357,6 @@ write.csv(rank_table_name4, file_name_final_result_csv)
 
 
 
-
-
-
-
-
-
-
-
-
 # ################################################################################################################
 #
 #     K-means (K-means classifier)
@@ -441,21 +419,9 @@ write.csv(result_kmeans, file_name_cluster_csv)
 
 
 
-
-
-
-
-
-
-
-
-
 # ###########################################################################################################
 #
 #     WITH CELEBRITIES
-#
-#
-#
 #
 #
 #
@@ -464,7 +430,7 @@ write.csv(result_kmeans, file_name_cluster_csv)
 
 # ###########################################################
 #
-#       GREY Scaling
+#     GREY Scaling
 #     color : Grey
 #     Scale : 640*640
 #
@@ -544,14 +510,6 @@ for(i in 1:length(images))
 
 
 
-
-
-
-
-
-
-
-
 # ##############################################################################################
 #
 #       Correlation Comparison
@@ -583,9 +541,6 @@ images_df <- data.frame(numbers = 1:length(images_list), list = images_list)
 images_df$list <- as.character(images_df$list)
 str(images_df)
 images_df[,2]
-
-
-
 
 
 
@@ -639,12 +594,9 @@ write.csv(table_comb, file_name_table_comb_csv, row.names = FALSE)
 
 
 
-
-
-
 ##################################################################
 #
-#   Correlation
+#  Correlation
 #
 #  the cross-correlation or cross-covariance of two univariate series.
 #
