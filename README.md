@@ -45,7 +45,7 @@ options(scipen=999)
 # ###########################################################
 
 ### folder sets
-folder_main = "C:/Users/VIP/Desktop/R_project/R_matching2"
+folder_main = "MainFolderNameHere/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data/cut_all/")
 folder_result = paste0(folder_main, "/result/")
 folder_prediction = paste0(folder_main, "/prediction/")
@@ -129,7 +129,7 @@ for(i in 1:length(images))
 # ##############################################################################################
 
 ### folder sets
-folder_main = "C:/Users/VIP/Desktop/R_project/R_matching2"
+folder_main = "MainFolderNameHere/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data/cut_all/")
 folder_result = paste0(folder_main, "/result/")
 folder_prediction = paste0(folder_main, "/prediction/")
@@ -369,7 +369,7 @@ write.csv(rank_table_name4, file_name_final_result_csv)
 
 
 ### folder sets
-folder_main = "C:/Users/VIP/Desktop/R_project/R_matching2"
+folder_main = "MainFolderNameHere/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data/cut_all/")
 folder_result = paste0(folder_main, "/result/")
 folder_prediction = paste0(folder_main, "/prediction/")
@@ -437,7 +437,7 @@ write.csv(result_kmeans, file_name_cluster_csv)
 # ###########################################################
 
 ### folder sets
-folder_main = "C:/Users/VIP/Desktop/R_project/R_matching2"
+folder_main = "MainFolderNameHere/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data_n_celeb/")
 folder_result = paste0(folder_main, "/result_celeb/")
 folder_grey = paste0(folder_main, "/data_n_celeb_grey/")
@@ -518,7 +518,7 @@ for(i in 1:length(images))
 #
 # ##############################################################################################
 
-folder_main = "C:/Users/VIP/Desktop/R_project/R_matching2"
+folder_main = "MainFolderNameHere/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data_n_celeb/")
 folder_result = paste0(folder_main, "/result_celeb/")
 folder_grey = paste0(folder_main, "/data_n_celeb_grey/")
