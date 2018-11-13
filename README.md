@@ -7,12 +7,11 @@
 
 
 ## Features
-- Used SharePoint list for service requests and workflows
-- Used SharePoint Profile service for employee list
-- Used MSSQL to save all communication logs and histories.
-- Can review my pending list and all communication histories.
-- Simple Chat Communication App
-- Much faster than Email communication and easy to track the history of each requests and approvals.
+- Find two of the most similar images in many images
+- Make groups with similar images (people)
+- Find most similar image in many images.
+
+
 
 ## Codes
 
@@ -45,7 +44,7 @@ options(scipen=999)
 # ###########################################################
 
 ### folder sets
-folder_main = "MainFolderNameHere/R_project/R_matching2"
+folder_main = "RootFolder/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data/cut_all/")
 folder_result = paste0(folder_main, "/result/")
 folder_prediction = paste0(folder_main, "/prediction/")
@@ -129,7 +128,7 @@ for(i in 1:length(images))
 # ##############################################################################################
 
 ### folder sets
-folder_main = "MainFolderNameHere/R_project/R_matching2"
+folder_main = "RootFolder/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data/cut_all/")
 folder_result = paste0(folder_main, "/result/")
 folder_prediction = paste0(folder_main, "/prediction/")
@@ -369,7 +368,7 @@ write.csv(rank_table_name4, file_name_final_result_csv)
 
 
 ### folder sets
-folder_main = "MainFolderNameHere/R_project/R_matching2"
+folder_main = "RootFolder/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data/cut_all/")
 folder_result = paste0(folder_main, "/result/")
 folder_prediction = paste0(folder_main, "/prediction/")
@@ -437,7 +436,7 @@ write.csv(result_kmeans, file_name_cluster_csv)
 # ###########################################################
 
 ### folder sets
-folder_main = "MainFolderNameHere/R_project/R_matching2"
+folder_main = "RootFolder/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data_n_celeb/")
 folder_result = paste0(folder_main, "/result_celeb/")
 folder_grey = paste0(folder_main, "/data_n_celeb_grey/")
@@ -518,7 +517,7 @@ for(i in 1:length(images))
 #
 # ##############################################################################################
 
-folder_main = "MainFolderNameHere/R_project/R_matching2"
+folder_main = "RootFolder/R_project/R_matching2"
 folder_data = paste0(folder_main, "/data_n_celeb/")
 folder_result = paste0(folder_main, "/result_celeb/")
 folder_grey = paste0(folder_main, "/data_n_celeb_grey/")
