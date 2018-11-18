@@ -11,13 +11,9 @@
 - Make groups with similar images (people)
 - Find most similar image in many images.
 
-```html
-<span style="color:red;"> Please change "RootFolder" to your R code location and put sample images for your test<span>
-```
 
 ```diff
-+ this will be highlighted in green
-- this will be highlighted in red
+- Please change "RootFolder" to your R code location and put sample images for your test
 ```
 
 ## Codes
