@@ -11,8 +11,9 @@
 - Make groups with similar images (people)
 - Find most similar image in many images.
 
-[#f03c15] Please change "RootFolder" to your R code location and put sample images for your test
-
+```html
+<span style="color:red;"> Please change "RootFolder" to your R code location and put sample images for your test<span>
+```
 
 ## Codes
 
